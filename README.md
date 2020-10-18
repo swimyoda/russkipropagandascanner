@@ -1,4 +1,4 @@
-# russkipropagandascanner
+# Russki Propaganda Scanner
 
 This project is designed to detect linguistic patterns common to Russian propaganda from state-run media and find articles from non-Russian sources which share these patterns.
 
