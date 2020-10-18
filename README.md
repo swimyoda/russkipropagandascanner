@@ -6,4 +6,4 @@ We collected a large number of articles from RT.com, News Front (both Russian st
 
 Our goal is to create a website where people can see article text and Russki Index of these articles to become more aware of how Russian propaganda narratives spread to more legitimate news agencies. In the future, we hope to enable people to look up particular keywords and see articles from various sources which have a high Russki Index to be able to track these narratives in real time.
 
-Our website will be hosted at russkipropagandascanner.tech
+Our website will be hosted at [russkipropagandascanner.tech](russkipropagandascanner.tech)
