@@ -1,6 +1,6 @@
 # Russki Propaganda Scanner
 
-Our website will be running at [russkipropagandascanner.tech](russkipropagandascanner.tech)
+Our website will be running at [russkipropagandascanner.tech](http://russkipropagandascanner.tech)
 
 ## Goals
 Our goal is to create a website where people can see article text and Russki Index of these articles to become more aware of how Russian propaganda narratives spread to more legitimate news agencies. Because foreign disinformation is such an insidious issue, we hope that this project can help to shed some light on the issue and give people a resource to improve their understanding of (and resiliency to) this dangerious phenomenon.
