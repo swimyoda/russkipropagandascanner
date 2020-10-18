@@ -1,0 +1,33 @@
+.mainContainer {
+	flex-direction: row;
+	flex: 1 0 auto;
+}
+
+.leftList {
+	position: fixed;
+	height: 100%;
+	width: 900px;
+	background-color: white;
+	box-shadow: #00000022 3px 3px 5px;
+
+	ul {
+		padding-left: none;
+		display: flex;
+		flex: 1 0 auto;
+		flex-direction: column;
+	}
+
+	li {
+		display: flex;
+		list-style: none;
+		padding: 20px 30px;
+		border-bottom: 1px #ddd solid;
+	}
+}
+
+.detailContent {
+	width: 950px;
+    word-wrap: break-word;
+	position: relative;
+	margin-left: 900px;
+}

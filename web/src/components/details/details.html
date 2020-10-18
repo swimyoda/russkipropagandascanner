@@ -1,0 +1,32 @@
+<div>
+    <b-navbar toggleable="md" type="dark" variant="dark" fixed="top">
+        <b-navbar-brand use-router :to="{name: 'home'}" exact>русский propaganda harvestor 3000</b-navbar-brand>
+    
+        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+    
+        <b-collapse is-nav id="nav_collapse">
+            <b-navbar-nav class="mr-auto">
+                <b-nav-item use-router :to="{name: 'home'}" exact>Home</b-nav-item>
+                <b-nav-item use-router :to="{name: 'details'}">Explore</b-nav-item>
+                <b-nav-item><a href="https://github.com/swimyoda/russkipropagandascanner">Github</a></b-nav-item>
+            </b-navbar-nav>
+        </b-collapse>
+    </b-navbar>
+    
+    <div class="mainContainer">
+        <div class="leftList">
+            <ul>
+                <li v-for="entry in entries" :key="entry.id">
+                    <router-link v-bind:to="'/details/' + entry.id">{{ entry.name }}</router-link>
+                </li>
+            </ul>
+        </div>
+        <div class="detailContent">
+            <p v-if="entry"><b><h2>{{ entry.name }}</h2></b><br>
+                            Russki Index: {{ entry.index }}<br><br>
+                            {{ entry.link }}<br><br>
+                            {{ entry.text }}</p>
+            <p v-if="!entry">Please select an entry on the left to view!</p>
+        </div>
+    </div>
+</div>
