@@ -9,3 +9,11 @@ Our goal is to create a website where people can see article text and Russki Ind
 Our website will be hosted at [russkipropagandascanner.tech](russkipropagandascanner.tech)
 
 Спасибо за интерес к нашему проекту!
+
+# Overview of Repo
+
+- doitall.py: Does all the preprocessing, embedding, training, and testing
+- embed.csv:  File with the data to train the embeding
+- class.csv:  File with the data to train the classifer
+- test.csv:   File with data to test out our classifier
+- results.csv: The text, title, url and Russki Index for the text data as calculated by the classifier
