@@ -12,11 +12,7 @@ Our website will be hosted at [russkipropagandascanner.tech](russkipropagandasca
 
 # Overview of Repo
 
-- doitall.py
-  Does all the preprocessing, embedding, training, and testing
-- embed.csv
-  File with the data to train the embeding
-- class.csv
-  File with the data to train the classifer
-- test.csv
-  File with data to test out our classifier
+- doitall.py: Does all the preprocessing, embedding, training, and testing
+- embed.csv:  File with the data to train the embeding
+- class.csv:  File with the data to train the classifer
+- test.csv:   File with data to test out our classifier
