@@ -18,7 +18,7 @@ While Tom and Hunter each had some experience with machine learning and data sci
 
 Спасибо за интерес к нашему проекту!
 
-# Overview of Repo
+## Overview of Repo
 
 - doitall.py: Does all the preprocessing, embedding, training, and testing
 - data: Directory with the training and testing data
